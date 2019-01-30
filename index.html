@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js30-3</title>
+    <style>
+        :root {
+            --size: 100px;
+            --background_color: red;
+        }
+        .box {
+            width: var(--size);
+            height: var(--size);
+            background: var(--background_color);
+        }
+    </style>
+    <script src="/script.js"></script>
+</head>
+<body>
+    size: <input type="range" name="size" data-prefix="px">
+    color: <input type="color" name="background_color">
+
+
+
+    <div class="box"></div>
+</body>
+</html>
